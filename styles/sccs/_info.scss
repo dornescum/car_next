@@ -1,0 +1,13 @@
+.info-card{
+  .border{
+    border: 1px solid crimson;
+  }
+
+  h3 {
+    text-align: center;
+  }
+    p {
+      padding: $base-padding;
+      margin-left: $base-margin;
+    }
+}
