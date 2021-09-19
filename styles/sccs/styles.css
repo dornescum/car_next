@@ -807,7 +807,7 @@ a {
 }
 .info-form .form-check {
   border: 1px solid #ccc;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
 }
 
 .border {
@@ -846,6 +846,12 @@ a {
 .details .thin-br {
   border: 1px solid #326dee;
   border-radius: 2px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.details .thin-br:hover {
+  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.3);
 }
 .details ul {
   list-style-type: none;
@@ -857,8 +863,10 @@ a {
 .details ul .details-info {
   color: #326dee;
 }
-.details .info-details {
-  width: 100%;
+@media (max-width: 720px) {
+  .details .info-details {
+    width: 300px;
+  }
 }
 @media (max-width: 480px) {
   .details .info-details {

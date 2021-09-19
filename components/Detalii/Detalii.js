@@ -6,7 +6,7 @@ const Detalii = () => {
 			<div className="container">
 				<h3>Cartea tehnica</h3>
 				<div className="row gap-1">
-					<div className="col-6-lg">
+					<div className="col-6-lg col-12-sm">
 						<div className="info-details">
 
 							<ul className="display-f justify-space-between  mb-1 mt-1 thin-br">
@@ -41,7 +41,7 @@ const Detalii = () => {
 
 						</div>
 					</div>
-					<div className="col-6-lg">
+					<div className="col-6-lg col-12-sm">
 						<div className="info-details">
 
 
@@ -81,7 +81,7 @@ const Detalii = () => {
 					</div>
 
 
-					<div className="col-6-lg">
+					<div className="col-6-lg col-12-sm">
 						<div className="info-details">
 
 							<ul className="display-f justify-space-between  mb-1 mt-1 thin-br">
@@ -108,7 +108,7 @@ const Detalii = () => {
 
 						</div>
 					</div>
-					<div className="col-6-lg">
+					<div className="col-6-lg col-12-sm">
 						<div className="info-details">
 							<ul className="display-f justify-space-between  mb-1 mt-1 thin-br">
 								<li className="details-info">Motorul</li>
@@ -144,7 +144,7 @@ const Detalii = () => {
 						</div>
 					</div>
 
-					<div className="col-6-lg">
+					<div className="col-6-lg col-12-sm">
 						<div className="info-details">
 
 							<ul className="display-f justify-space-between  mb-1 mt-1 thin-br">
@@ -177,7 +177,7 @@ const Detalii = () => {
 
 						</div>
 					</div>
-					<div className="col-6-lg">
+					<div className="col-6-lg col-12-sm">
 						<div className="info-details">
 
 							<ul className="display-f justify-space-between  mb-1 mt-1 thin-br">

@@ -9,6 +9,12 @@
   .thin-br {
     border: 1px solid $primary;
     border-radius: 2px;
+    box-shadow: $box-shadow-light;
+    transition: all .3s ease;
+    cursor: pointer;
+    &:hover {
+      box-shadow: $box-shadow-dark;
+    }
   }
 
   ul {
@@ -26,7 +32,10 @@
   }
 
   .info-details {
-    width: 100%;
+    //width: 100%;
+    @media (max-width: 720px) {
+      width: 300px;
+    }
     @media (max-width: 480px) {
       width: 330px;
       font-size: $font-size-sm;

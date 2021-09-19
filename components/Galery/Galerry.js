@@ -13,7 +13,7 @@ const Galerry = () => {
 			<SRLWrapper>
 				<div className="row gap-1">
 					<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-						<a href="/img/1.jpg" className="photo">
+						<a href="/thumb/t-1.jpg" className="photo">
 							<Image
 								src={car_1}
 								alt="Picture of the author"
