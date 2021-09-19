@@ -2,8 +2,10 @@ $primary: #326dee !default;
 $secondary: #1ac886 !default;
 $error: #d32752 !default;
 $info: #f6c31c !default;
+$background-1: #ededed;
 
-// color palette
+
+  // color palette
 $colors: (
         "primary": $primary,
         "secondary": $secondary,
@@ -29,7 +31,8 @@ $base-border-thickness: 1px !default;
 $base-border-radius: 20px !default;
 
 // box-shadow
-$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1) !default;
+$box-shadow-light: 1px 3px 5px rgba(0,0,0,0.1) !default;
+$box-shadow-dark: 2px 4px 7px rgba(0,0,0,0.3) !default;
 
 // font sizes
 $base-font-size: 1rem !default;

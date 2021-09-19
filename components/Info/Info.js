@@ -6,41 +6,243 @@ const Info = () => {
 			<h3>Informatii despre masina</h3>
 			<div className="container">
 				<div className="row">
+					<div className="col-4-xl col-12-xs">
+						<div className="border br-xs">
+							<div className="row">
+								<div className="col-6-xs">
+									<form action="" className="info-form br-xs">
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
 
-					<div className="col-4-xl col-12-xs gap-1 border">
-						<div className="row">
-							<div className="col-6-xs" >
-								<p>masina</p>
-								<p>roti</p>
+
+									</form>
+								</div>
+								<div className="col-6-xs">
+									<form action="" className="info-form">
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+
+
+									</form>
+								</div>
 							</div>
-							<div className="col-6-xs">
-								<p>opel</p>
-								<p>4</p>
-							</div>
+
 						</div>
 					</div>
-					<div className="col-4-xl col-12-xs gap-1 border">
-						<div className="row">
-							<div className="col-6-xs" >
-								<p>masina</p>
-								<p>roti</p>
+
+					<div className="col-4-xl col-12-xs">
+						<div className="border br-xs">
+							<div className="row">
+								<div className="col-6-xs">
+									<form action="" className="info-form br-xs">
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+
+
+									</form>
+								</div>
+								<div className="col-6-xs">
+									<form action="" className="info-form">
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+
+
+									</form>
+								</div>
 							</div>
-							<div className="col-6-xs">
-								<p>opel</p>
-								<p>4</p>
-							</div>
+
 						</div>
 					</div>
-					<div className="col-4-xl col-12-xs gap-1 border">
-						<div className="row">
-							<div className="col-6-xs" >
-								<p>masina</p>
-								<p>roti</p>
+
+					<div className="col-4-xl col-12-xs">
+						<div className="border br-xs">
+							<div className="row">
+								<div className="col-6-xs">
+									<form action="" className="info-form br-xs">
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+
+
+									</form>
+								</div>
+								<div className="col-6-xs">
+									<form action="" className="info-form">
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Abs</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
+											<label htmlFor="marca">Airbaguri-frontale</label>
+											<input type="checkbox" readOnly id="marca" placeholder="Opel"
+												   checked={true}/>
+										</div>
+
+
+									</form>
+								</div>
 							</div>
-							<div className="col-6-xs">
-								<p>opel</p>
-								<p>4</p>
-							</div>
+
 						</div>
 					</div>
 
