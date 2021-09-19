@@ -9,7 +9,7 @@ const Info = () => {
 					<div className="col-4-xl col-12-xs">
 						<div className="border br-xs">
 							<div className="row">
-								<div className="col-6-xs">
+								<div className="col-12-xs col-6-lg">
 									<form action="" className="info-form br-xs">
 										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
 											<label htmlFor="marca">Abs</label>
@@ -45,7 +45,7 @@ const Info = () => {
 
 									</form>
 								</div>
-								<div className="col-6-xs">
+								<div className="col-12-xs col-6-lg">
 									<form action="" className="info-form">
 										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
 											<label htmlFor="marca">Abs</label>
@@ -89,7 +89,7 @@ const Info = () => {
 					<div className="col-4-xl col-12-xs">
 						<div className="border br-xs">
 							<div className="row">
-								<div className="col-6-xs">
+								<div className="col-12-xs col-6-lg">
 									<form action="" className="info-form br-xs">
 										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
 											<label htmlFor="marca">Abs</label>
@@ -125,7 +125,7 @@ const Info = () => {
 
 									</form>
 								</div>
-								<div className="col-6-xs">
+								<div className="col-12-xs col-6-lg">
 									<form action="" className="info-form">
 										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
 											<label htmlFor="marca">Abs</label>
@@ -169,7 +169,7 @@ const Info = () => {
 					<div className="col-4-xl col-12-xs">
 						<div className="border br-xs">
 							<div className="row">
-								<div className="col-6-xs">
+								<div className="col-12-xs col-6-lg">
 									<form action="" className="info-form br-xs">
 										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
 											<label htmlFor="marca">Abs</label>
@@ -205,7 +205,7 @@ const Info = () => {
 
 									</form>
 								</div>
-								<div className="col-6-xs">
+								<div className="col-12-xs col-6-lg">
 									<form action="" className="info-form">
 										<div className="form-check display-f br-xs mb-1 mt-1 justify-space-between">
 											<label htmlFor="marca">Abs</label>

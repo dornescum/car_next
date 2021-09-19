@@ -24,4 +24,15 @@
       color: $primary;
     }
   }
+
+  .info-details {
+    width: 100%;
+    @media (max-width: 480px) {
+      width: 330px;
+      font-size: $font-size-sm;
+    }
+    @media (max-width: 320px) {
+      width: 270px;
+    }
+  }
 }

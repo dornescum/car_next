@@ -803,7 +803,6 @@ a {
 }
 
 .info-form {
-  padding: 1rem;
   margin: 1rem;
 }
 .info-form .form-check {
@@ -857,6 +856,20 @@ a {
 }
 .details ul .details-info {
   color: #326dee;
+}
+.details .info-details {
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .details .info-details {
+    width: 330px;
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 320px) {
+  .details .info-details {
+    width: 270px;
+  }
 }
 
 .col {
