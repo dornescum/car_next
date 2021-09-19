@@ -40,8 +40,6 @@ const Index = () => {
 					srl_gallery_image="true" // Add this if your thumbnail is not recognized
 				/>
 			</a>
-
-
 		</SRLWrapper>
 	);
 };

@@ -8,6 +8,7 @@ import Navbar from "../components/UI/Navbar";
 import Description from "../components/Description/Description";
 import Footer from "../components/UI/Footer";
 import Info from "../components/Info/Info";
+import Galerry from "../components/Galery/Galerry";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
 			<Hero/>
 			<Description />
 			<Info />
+			<Galerry />
 			<Footer />
 		</div>
 	);

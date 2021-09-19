@@ -1,13 +1,20 @@
 import React from 'react';
 // import Image from 'react-bootstrap/Image'
 import Image from 'next/image'
+import car from '../../public/img/1-2.jpg'
 
 
 const Hero = () => {
 	return (
-		<div>
-			<Image src="/img/car.webp" height='1300' width='1920' alt='a car' layout="responsive" lazy='true' />
-		</div>
+		<>
+			<Image src={car}
+				   height='1300'
+				   width='1920'
+				   objectFit='cover'
+				   alt='a car'
+				   layout="responsive"
+				   lazy='true' />
+		</>
 	);
 };
 

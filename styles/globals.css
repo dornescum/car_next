@@ -796,7 +796,7 @@ a {
 .info-card {
   background: #ededed;
   margin: 1rem 0;
-  padding: 1rem 0;
+  padding: 1rem 0 3rem 0;
 }
 .info-card h3 {
   text-align: center;
@@ -808,10 +808,6 @@ a {
 .info-card .info-form .form-check {
   border: 1px solid #ccc;
   padding: 1rem;
-}
-.info-card p {
-  padding: 1rem;
-  margin-left: 1rem;
 }
 
 .border {
@@ -825,6 +821,15 @@ a {
 .description {
   padding: 1rem;
   margin: 1rem;
+}
+
+.photo {
+  padding: 0 0.5rem;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.photo:hover {
+  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.3);
 }
 
 /*# sourceMappingURL=globals.css.map */

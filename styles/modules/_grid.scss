@@ -21,8 +21,6 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
 .row {
   display: flex;
   flex-flow: row wrap;
-  //margin-right: -15px;
-  //margin-left: -15px;
 }
 
 // grid gaps
