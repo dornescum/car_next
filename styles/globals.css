@@ -832,4 +832,12 @@ a {
   box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.3);
 }
 
+.gallery h3 {
+  text-align: center;
+}
+
+.details .thin-br {
+  border: 1px solid black;
+}
+
 /*# sourceMappingURL=globals.css.map */

@@ -8,7 +8,8 @@ import Image from "next/image";
 
 const Galerry = () => {
 	return (
-		<div className="container">
+		<div className="container gallery">
+			<h3>Galerie foto</h3>
 			<SRLWrapper>
 				<div className="row gap-1">
 					<div className="col-2-lg col-4-md col-6-sm col-12-xs">

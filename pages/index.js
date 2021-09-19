@@ -9,6 +9,7 @@ import Description from "../components/Description/Description";
 import Footer from "../components/UI/Footer";
 import Info from "../components/Info/Info";
 import Galerry from "../components/Galery/Galerry";
+import Detalii from "../components/Detalii/Detalii";
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
 			<Description />
 			<Info />
 			<Galerry />
+			<Detalii />
 			<Footer />
 		</div>
 	);
