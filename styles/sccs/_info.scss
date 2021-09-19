@@ -5,29 +5,21 @@
   h3 {
     text-align: center;
   }
+}
+.info-form {
+  padding: $base-padding;
+  margin: $base-margin;
 
-  .info-form {
+
+  .form-check {
+    border: 1px solid #ccc;
     padding: $base-padding;
-    margin: $base-margin;
-
-
-    .form-check {
-      border: 1px solid #ccc;
-      padding: $base-padding;
-
-    }
   }
-
-  //p {
-  //  padding: $base-padding;
-  //  margin-left: $base-margin;
-  //}
 }
 
 .border {
   box-shadow: $box-shadow-light;
   transition: all .3s ease;
-
   &:hover {
     box-shadow: $box-shadow-dark;
   }

@@ -801,11 +801,12 @@ a {
 .info-card h3 {
   text-align: center;
 }
-.info-card .info-form {
+
+.info-form {
   padding: 1rem;
   margin: 1rem;
 }
-.info-card .info-form .form-check {
+.info-form .form-check {
   border: 1px solid #ccc;
   padding: 1rem;
 }
@@ -836,8 +837,26 @@ a {
   text-align: center;
 }
 
+.details {
+  background: #ededed;
+  padding: 2rem 0;
+}
+.details h3 {
+  text-align: center;
+}
 .details .thin-br {
-  border: 1px solid black;
+  border: 1px solid #326dee;
+  border-radius: 2px;
+}
+.details ul {
+  list-style-type: none;
+  padding: 0;
+}
+.details ul li {
+  padding: 0.5rem 1rem;
+}
+.details ul .details-info {
+  color: #326dee;
 }
 
 /*# sourceMappingURL=styles.css.map */

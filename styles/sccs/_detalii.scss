@@ -1,5 +1,27 @@
 .details {
- .thin-br {
-   border: 1px solid black;
- }
+  background: $background-1;
+  padding: $base-padding*2 0;
+
+  h3 {
+    text-align: center;
+  }
+
+  .thin-br {
+    border: 1px solid $primary;
+    border-radius: 2px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      padding: $base-padding /2 $base-padding;
+
+    }
+
+    .details-info {
+      color: $primary;
+    }
+  }
 }
