@@ -2,7 +2,7 @@ import React from 'react';
 
 const Info = () => {
 	return (
-		<div className="info-card">
+		<div className="info-card" id='echipare'>
 			<h3>Informatii despre masina</h3>
 			<div className="container">
 				<div className="row gap-1">

@@ -15,7 +15,7 @@ const Footer = () => {
 	}
 
 	return (
-		<div className='footer o-70'>
+		<div className='footer o-70' id='contact'>
 			<div className='container'>
 				<div className="row-footer mt-1">
 					<div className="col">
@@ -34,10 +34,6 @@ const Footer = () => {
 							{showEmail && <p className='show-info'>email@ya</p>}
 						</div>
 					</div>
-
-
-
-
 				</div>
 			</div>
 		</div>

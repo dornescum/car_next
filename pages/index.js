@@ -1,3 +1,4 @@
+import React, { Suspense, lazy } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import slider from './slider';
@@ -10,15 +11,19 @@ import Footer from "../components/UI/Footer";
 import Info from "../components/Info/Info";
 import Galerry from "../components/Galery/Galerry";
 import Detalii from "../components/Detalii/Detalii";
+import Imperfections from '../components/Imperfections/Imperfections';
+import Price from "../components/Price/Price";
 
 
 export default function Home() {
 	const navbarLinks = [
 		{ url: "#fata", title: "Home" },
 		{ url: "#desc", title: "Descriere" },
-		{ url: "#portbagaj", title: "Portbagaj" },
-		{ url: "#spate", title: "Spate" },
-		{ url: "#info", title: "Info" },
+		{ url: "#echipare", title: "Echipare" },
+		{ url: "#galerie", title: "Galerie" },
+		{ url: "#imperfectiuni", title: "Imperfectiuni" },
+		{ url: "#contact", title: "Contact" },
+
 	];
 
 
@@ -35,6 +40,8 @@ export default function Home() {
 			<Info />
 			<Galerry />
 			<Detalii />
+			<Imperfections />
+			<Price />
 			<Footer />
 		</div>
 	);
