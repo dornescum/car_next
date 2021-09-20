@@ -1,9 +1,9 @@
 import React from 'react';
 import {SRLWrapper} from "simple-react-lightbox";
-import picture from '../../assets/roland-hechanova-wiXWe_--AWY-unsplash (1).jpg';
-import car_1 from '../../public/img/1.jpg';
-import car_12 from '../../public/img/1-2.jpg';
-import Image from "next/image";
+// import picture from '../../assets/roland-hechanova-wiXWe_--AWY-unsplash (1).jpg';
+// import car_1 from '../../public/img/1.jpg';
+// import car_12 from '../../public/img/1-2.jpg';
+// import Image from "next/image";
 
 
 const Galerry = () => {

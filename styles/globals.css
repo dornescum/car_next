@@ -934,7 +934,7 @@ a {
   transition: all 0.3s ease;
 }
 .border:hover {
-  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .description {
@@ -950,7 +950,7 @@ a {
   transition: all 0.3s ease;
 }
 .photo:hover {
-  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .photo img {
   height: 11rem;
@@ -991,7 +991,7 @@ a {
   cursor: pointer;
 }
 .details .thin-br:hover {
-  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .details ul {
   list-style-type: none;

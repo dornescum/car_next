@@ -24,6 +24,7 @@ export default function Home() {
 		{ url: "#imperfectiuni", title: "Imperfectiuni" },
 		{ url: "#contact", title: "Contact" },
 
+
 	];
 
 

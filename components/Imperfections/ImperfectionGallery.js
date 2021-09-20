@@ -5,110 +5,110 @@ const ImperfectionGallery = () => {
 	return (
 		<SRLWrapper>
 			<div className="row gap-1">
-
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/1.webp" className="photo-imp">
+					{/*todo nu fonctioneaza 1.webp*/}
+					<a href="/imp/1i.webp" className="photo-imp">
 						<img
-							src='/webp/1-sm.webp'
+							src='/imp/1i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/2.webp" className="photo-imp">
+					<a href="/imp/2i.webp" className="photo-imp">
 						<img
-							src='/webp/2-sm.webp'
+							src='/imp/2i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/3.webp" className="photo-imp">
+					<a href="/imp/3i.webp" className="photo-imp">
 						<img
-							src='/webp/3-sm.webp'
+							src='/imp/3i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/4.webp" className="photo-imp">
+					<a href="/imp/4i.webp" className="photo-imp">
 						<img
-							src='/webp/4-sm.webp'
+							src='/imp/4i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/5.webp" className="photo-imp">
+					<a href="/imp/5i.webp" className="photo-imp">
 						<img
-							src='/webp/5-sm.webp'
+							src='/imp/5i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/6.webp" className="photo-imp">
+					<a href="/imp/6i.webp" className="photo-imp">
 						<img
-							src='/webp/6-sm.webp'
+							src='/imp/6i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/7.webp" className="photo-imp">
+					<a href="/imp/7i.webp" className="photo-imp">
 						<img
-							src='/webp/7-sm.webp'
+							src='/imp/7i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/8.webp" className="photo-imp">
+					<a href="/imp/8i.webp" className="photo-imp">
 						<img
-							src='/webp/8-sm.webp'
+							src='/imp/8i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/9.webp" className="photo-imp">
+					<a href="/imp/9i.webp" className="photo-imp">
 						<img
-							src='/webp/9-sm.webp'
+							src='/imp/9i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/10.webp" className="photo-imp">
+					<a href="/imp/10i.webp" className="photo-imp">
 						<img
-							src='/webp/10-sm.webp'
+							src='/imp/10i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/11.webp" className="photo-imp">
+					<a href="/imp/11i.webp" className="photo-imp">
 						<img
-							src='/webp/11-sm.webp'
+							src='/imp/11i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/webp/12.webp" className="photo-imp">
+					<a href="/imp/12i.webp" className="photo-imp">
 						<img
-							src='/webp/12-sm.webp'
+							src='/imp/12i.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>

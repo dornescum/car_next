@@ -19,7 +19,7 @@ const Navbar = ({navbarLinks}) => {
 		})
 	}
 	return (
-		<nav className="navbar">
+		<nav className="navbar" id='nav'>
 			<span className="navbar__logo">Vitezomanu Gica</span>
 			{menuClicked ? (
 				<FiX size={25} className={"navbar__menu"} onClick={toggleMenuClick} />
