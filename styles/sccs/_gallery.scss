@@ -1,11 +1,26 @@
 .photo {
-  padding: 0 $base-padding /2;
+  //padding: 0 $base-padding /2;
   box-shadow: $box-shadow-light;
   transition: all .3s ease;
 
   &:hover {
     box-shadow: $box-shadow-dark;
   }
+
+    img {
+      height: 13rem;
+      width: 100%;
+      @media (max-width: 1200px) {
+        height: 9rem;
+      }
+      @media (max-width: 960px) {
+        height: 13rem;
+      }
+      @media (max-width: 480px) {
+        height: 17rem;
+      }
+    }
+
 }
 .gallery {
   h3 {

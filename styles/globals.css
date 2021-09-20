@@ -6,6 +6,10 @@ body {
   background: #f0f0f0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -824,12 +828,30 @@ a {
 }
 
 .photo {
-  padding: 0 0.5rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 .photo:hover {
   box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.3);
+}
+.photo img {
+  height: 13rem;
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .photo img {
+    height: 9rem;
+  }
+}
+@media (max-width: 960px) {
+  .photo img {
+    height: 13rem;
+  }
+}
+@media (max-width: 480px) {
+  .photo img {
+    height: 17rem;
+  }
 }
 
 .gallery h3 {
