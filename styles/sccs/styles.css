@@ -1079,6 +1079,24 @@ a {
   }
 }
 
+.slider {
+  height: 100vh;
+}
+.slider .head {
+  background: black;
+  opacity: 0.75;
+  color: white;
+  text-align: start;
+  padding: 2rem;
+}
+
+#second {
+  padding: 3rem 0;
+}
+#second h3 {
+  margin: 1rem 0;
+}
+
 .price h2 {
   text-align: center;
 }

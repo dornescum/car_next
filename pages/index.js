@@ -21,7 +21,7 @@ export default function Home() {
 		{ url: "#desc", title: "Descriere" },
 		{ url: "#echipare", title: "Echipare" },
 		{ url: "#galerie", title: "Galerie" },
-		{ url: "#imperfectiuni", title: "Imperfectiuni" },
+		{ url: "/slider", title: "Imperfectiuni" },
 		{ url: "#contact", title: "Contact" },
 
 
@@ -41,7 +41,7 @@ export default function Home() {
 			<Info />
 			<Galerry />
 			<Detalii />
-			<Imperfections />
+			{/*<Imperfections />*/}
 			<Price />
 			<Footer />
 		</div>

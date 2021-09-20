@@ -7,108 +7,108 @@ const ImperfectionGallery = () => {
 			<div className="row gap-1">
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
 					{/*todo nu fonctioneaza 1.webp*/}
-					<a href="/imp/1i.webp" className="photo-imp">
+					<a href="/imp/30.webp" className="photo-imp">
 						<img
-							src='/imp/1i.webp'
+							src='/imp/30.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/2i.webp" className="photo-imp">
+					<a href="/imp/31.webp" className="photo-imp">
 						<img
-							src='/imp/2i.webp'
+							src='/imp/32.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/3i.webp" className="photo-imp">
+					<a href="/imp/33.webp" className="photo-imp">
 						<img
-							src='/imp/3i.webp'
+							src='/imp/33.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/4i.webp" className="photo-imp">
+					<a href="/imp/34.webp" className="photo-imp">
 						<img
-							src='/imp/4i.webp'
+							src='/imp/34.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/5i.webp" className="photo-imp">
+					<a href="/imp/35.webp" className="photo-imp">
 						<img
-							src='/imp/5i.webp'
+							src='/imp/35.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/6i.webp" className="photo-imp">
+					<a href="/imp/36.webp" className="photo-imp">
 						<img
-							src='/imp/6i.webp'
+							src='/imp/36.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/7i.webp" className="photo-imp">
+					<a href="/imp/37.webp" className="photo-imp">
 						<img
-							src='/imp/7i.webp'
+							src='/imp/37.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/8i.webp" className="photo-imp">
+					<a href="/imp/38.webp" className="photo-imp">
 						<img
-							src='/imp/8i.webp'
+							src='/imp/38.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/9i.webp" className="photo-imp">
+					<a href="/imp/39.webp" className="photo-imp">
 						<img
-							src='/imp/9i.webp'
+							src='/imp/39.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/10i.webp" className="photo-imp">
+					<a href="/imp/40.webp" className="photo-imp">
 						<img
-							src='/imp/10i.webp'
+							src='/imp/40.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/11i.webp" className="photo-imp">
+					<a href="/imp/41.webp" className="photo-imp">
 						<img
-							src='/imp/11i.webp'
+							src='/imp/41.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>
 					</a>
 				</div>
 				<div className="col-2-lg col-4-md col-6-sm col-12-xs">
-					<a href="/imp/12i.webp" className="photo-imp">
+					<a href="/imp/42.webp" className="photo-imp">
 						<img
-							src='/imp/12i.webp'
+							src='/imp/42.webp'
 							alt="Picture of the author"
 							srl_gallery_image="true"
 						/>

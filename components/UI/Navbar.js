@@ -47,6 +47,7 @@ const Navbar = ({navbarLinks}) => {
 					);
 				})}
 			</ul>
+
 		</nav>
 	);
 };

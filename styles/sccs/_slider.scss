@@ -1,0 +1,24 @@
+.slider {
+height: 100vh;
+  .head {
+    background: black;
+    opacity: 0.75;
+    color: white;
+    text-align: start;
+    padding: 2rem;
+    //svg {
+    //  padding:0 1rem;
+    //  fill: red !important;
+    //  cursor: pointer;
+    //  &:hover {
+    //    fill: blue;
+    //  }
+    //}
+  }
+}
+#second {
+padding: 3rem 0;
+  h3 {
+    margin: 1rem 0;
+  }
+}
