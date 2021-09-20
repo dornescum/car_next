@@ -14,7 +14,6 @@ import Detalii from "../components/Detalii/Detalii";
 import Imperfections from '../components/Imperfections/Imperfections';
 import Price from "../components/Price/Price";
 
-
 export default function Home() {
 	const navbarLinks = [
 		{ url: "#fata", title: "Home" },
@@ -26,6 +25,7 @@ export default function Home() {
 
 
 	];
+
 
 
 	return (

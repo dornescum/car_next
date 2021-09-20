@@ -10,6 +10,15 @@ const Hero = () => {
 	return (
 		<div className="hero">
 			<img src='/webp/1-full.webp' alt="Travel" className="hero__image" id='fata' />
+			{/*<Image*/}
+			{/*	src="/webp/1-full.webp"*/}
+			{/*	alt="Picture of the author"*/}
+			{/*	width={1920}*/}
+			{/*	height={600}*/}
+			{/*	srl_gallery_image="true" // Add this if your thumbnail is not recognized*/}
+			{/*	 id='fata'*/}
+			{/*	className="hero__image"*/}
+			{/*/>*/}
 			<h1 className="hero__title">Best car ever.</h1>
 		</div>
 	);

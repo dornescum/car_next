@@ -1,7 +1,7 @@
-
 import React, {useRef, useState} from "react";
-// import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
+// import Link from 'next/link'
+
 // {navbarLinks}
 const Navbar = ({navbarLinks}) => {
 	const [menuClicked, setMenuClicked] = useState(false);
@@ -18,6 +18,10 @@ const Navbar = ({navbarLinks}) => {
 			top: location - 70
 		})
 	}
+
+
+
+
 	return (
 		<nav className="navbar" id='nav'>
 			<span className="navbar__logo">Vitezomanu Gica</span>
@@ -38,7 +42,6 @@ const Navbar = ({navbarLinks}) => {
 				{navbarLinks.map((item, index) => {
 					return (
 						<li className="navbar__item" key={index}>
-							{/*todo err la height*/}
 							<a className="navbar__link" href={item.url} onClick={handleClick}
 							>
 								{item.title}

@@ -25,7 +25,7 @@ const Index = () => {
 								<Image
 									src="/imp/30.webp"
 									alt="Picture of the author"
-									width={400}
+									width={450}
 									height={400}
 									srl_gallery_image="true" // Add this if your thumbnail is not recognized
 								/>

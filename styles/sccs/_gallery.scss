@@ -8,16 +8,20 @@
   }
 
     img {
-      height: 11rem;
+      //height: 11rem;
+      height: 16rem;
       width: 100%;
       @media (max-width: 1200px) {
-        height: 9rem;
+        //height: 9rem;
+        height: 11rem;
       }
       @media (max-width: 960px) {
-        height: 13rem;
+        //height: 13rem;
+        height: 17rem;
       }
       @media (max-width: 480px) {
-        height: 17rem;
+        //height: 17rem;
+        height: 18rem;
       }
     }
 
