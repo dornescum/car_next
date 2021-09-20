@@ -963,7 +963,7 @@ a {
 }
 @media (max-width: 960px) {
   .photo img {
-    height: 18rem;
+    height: 20rem;
   }
 }
 @media (max-width: 480px) {
@@ -1002,11 +1002,6 @@ a {
 }
 .details ul .details-info {
   color: #326dee;
-}
-@media (max-width: 720px) {
-  .details .info-details {
-    width: 300px;
-  }
 }
 @media (max-width: 480px) {
   .details .info-details {
@@ -1059,26 +1054,6 @@ a {
   text-align: center;
 }
 
-.photo-imp img {
-  height: 8rem;
-  width: 100%;
-}
-@media (max-width: 1200px) {
-  .photo-imp img {
-    height: 7rem;
-  }
-}
-@media (max-width: 960px) {
-  .photo-imp img {
-    height: 12rem;
-  }
-}
-@media (max-width: 480px) {
-  .photo-imp img {
-    height: 17rem;
-  }
-}
-
 .slider {
   height: 100vh;
 }
@@ -1094,7 +1069,28 @@ a {
   padding: 3rem 0;
 }
 #second h3 {
-  margin: 1rem 0;
+  margin: 1rem;
+}
+
+.photo-imp img {
+  height: 17rem;
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+}
+@media (max-width: 1200px) {
+  .photo-imp img {
+    height: 15rem;
+  }
+}
+@media (max-width: 960px) {
+  .photo-imp img {
+    height: 20rem;
+  }
+}
+@media (max-width: 480px) {
+  .photo-imp img {
+    height: 18rem;
+  }
 }
 
 .price {

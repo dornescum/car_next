@@ -1,5 +1,6 @@
 .slider {
-height: 100vh;
+  height: 100vh;
+
   .head {
     background: black;
     opacity: 0.75;
@@ -16,9 +17,28 @@ height: 100vh;
     //}
   }
 }
+
 #second {
-padding: 3rem 0;
+  padding: 3rem 0;
+
   h3 {
-    margin: 1rem 0;
+    margin: 1rem;
+  }
+}
+
+.photo-imp {
+  img {
+    height: 17rem;
+    width: 100%;
+    padding: .3rem .5rem;
+    @media (max-width: 1200px) {
+      height: 15rem;
+    }
+    @media (max-width: 960px) {
+      height: 20rem;
+    }
+    @media (max-width: 480px) {
+      height: 18rem;
+    }
   }
 }
