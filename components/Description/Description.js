@@ -2,7 +2,7 @@ import React from 'react';
 
 const Description = () => {
 	return (
-		<div className='description'>
+		<div className='description' id='desc'>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores dolor eum ex incidunt numquam
 				perspiciatis, placeat rem ut voluptatum. Adipisci, assumenda dolor eos facere fuga inventore, nisi non
 				odit praesentium quisquam quod rerum? Animi atque eos fuga laboriosam minima, tempore. Atque autem

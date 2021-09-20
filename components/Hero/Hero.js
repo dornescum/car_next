@@ -13,7 +13,9 @@ const Hero = () => {
 				   objectFit='cover'
 				   alt='a car'
 				   layout="responsive"
-				   lazy='true' />
+				   lazy='true'
+				   id='fata'
+			/>
 		</>
 	);
 };
