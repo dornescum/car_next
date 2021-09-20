@@ -953,22 +953,22 @@ a {
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .photo img {
-  height: 16rem;
+  height: 17rem;
   width: 100%;
 }
 @media (max-width: 1200px) {
   .photo img {
-    height: 11rem;
+    height: 14rem;
   }
 }
 @media (max-width: 960px) {
   .photo img {
-    height: 17rem;
+    height: 18rem;
   }
 }
 @media (max-width: 480px) {
   .photo img {
-    height: 18rem;
+    height: 17rem;
   }
 }
 
@@ -1097,7 +1097,15 @@ a {
   margin: 1rem 0;
 }
 
+.price {
+  background: #ededed;
+  padding: 1rem;
+}
 .price h2 {
+  text-align: center;
+}
+
+.used-car h3 {
   text-align: center;
 }
 

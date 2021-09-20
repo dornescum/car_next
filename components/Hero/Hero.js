@@ -9,7 +9,7 @@ import car from '../../public/webp/1-full.webp'
 const Hero = () => {
 	return (
 		<div className="hero">
-			<img src='/webp/1-full.webp' alt="Travel" className="hero__image" id='fata' />
+			<img src='/webp/1-full.webp' alt="Travel" className="hero__image" id='home' />
 			{/*<Image*/}
 			{/*	src="/webp/1-full.webp"*/}
 			{/*	alt="Picture of the author"*/}

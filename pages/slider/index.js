@@ -16,6 +16,7 @@ const Index = () => {
 				</Link>
 
 			</div>
+
 			<SRLWrapper>
 				<div className="container mt-3" id="second">
 					<h3>Mici imperfectiuni</h3>
