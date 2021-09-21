@@ -2,16 +2,19 @@ import React from 'react';
 // import Image from 'react-bootstrap/Image'
 import Image from 'next/image'
 // import car from '../../public/img/1-2.jpg'
-import car from '../../public/webp/1-full.webp'
+// import car from '../../public/webp/car.webp'
+import car from '/public/1.jpg'
+
 
 
 
 const Hero = () => {
 	return (
 		<div className="hero">
-			<img src='/webp/1-full.webp' alt="Travel" className="hero__image" id='home' />
+			<img src='webp/car.webp' alt="Travel" className="hero__image" id='home' />
+			{/*<Image src="/webp/car.webp" height='1300' width='1920' />*/}
 			{/*<Image*/}
-			{/*	src="/webp/1-full.webp"*/}
+			{/*	src="/webp/car.webp"*/}
 			{/*	alt="Picture of the author"*/}
 			{/*	width={1920}*/}
 			{/*	height={600}*/}
@@ -36,7 +39,7 @@ export default Hero;
 // 	{/*	   id='fata'*/}
 // 	{/*/>*/}
 // 	<img
-// 		src='/webp/1-full.webp'
+// 		src='/webp/car.webp'
 // 		alt="Picture of the author"
 // 		srl_gallery_image="true"
 // 		id='fata'

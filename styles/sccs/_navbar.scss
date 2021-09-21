@@ -14,8 +14,14 @@
 
 .navbar__logo {
   color: white;
-  font-family: "MonteCarlo", cursive;
-  font-size: 2.5rem;
+  //font-family: "MonteCarlo", cursive;
+  font-size: $font-size-lg;
+  @media (max-width: 960px) {
+    font-size: $font-size-lg;
+  }
+  @media (max-width: 720px) {
+    font-size: $font-size-sm;
+  }
   @media (max-width: 480px) {
     font-size: $base-font-size;
   }

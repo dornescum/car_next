@@ -21,7 +21,10 @@ const Navbar = () => {
 
 	return (
 		<nav className="navbar" id="nav">
-			<span className="navbar__logo">Vitezomanu Gica</span>
+			<Link href='/'>
+				<a className="navbar__logo">Vitezomanu Gica</a>
+			</Link>
+
 			{menuClicked ? (
 				<FiX size={25} className={"navbar__menu"} onClick={toggleMenuClick}/>
 			) : (
