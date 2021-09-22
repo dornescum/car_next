@@ -951,6 +951,7 @@ a {
 .description {
   padding: 1rem;
   margin: 1rem;
+  letter-spacing: 1.1px;
 }
 .description h3 {
   text-align: center;
@@ -1030,6 +1031,27 @@ a {
   .details .info-details {
     width: 270px;
   }
+}
+
+.diff {
+  background: #ededed;
+}
+.diff fieldset {
+  border: 1px solid #326dee;
+  border-radius: 3px;
+  margin: 1rem 0;
+}
+.diff fieldset legend {
+  margin-left: 2rem;
+  color: #326dee;
+}
+.diff fieldset .formBox {
+  display: flex;
+  justify-content: flex-end;
+}
+.diff fieldset .formBox p {
+  padding: 0 1rem;
+  margin: 0;
 }
 
 .hero {
@@ -1131,6 +1153,9 @@ a {
 }
 .used-car h3 {
   text-align: center;
+}
+.used-car svg {
+  padding: 5px 0 0 3px;
 }
 
 .col {

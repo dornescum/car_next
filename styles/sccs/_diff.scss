@@ -1,0 +1,21 @@
+.diff {
+  background:  	$background-1 ;
+  fieldset {
+    border: 1px solid $primary;
+    border-radius: $border-radius;
+    margin: 1rem 0;
+    legend {
+      margin-left: 2rem;
+      color: $primary;
+    }
+    .formBox {
+      display: flex;
+      justify-content: flex-end;
+      p {
+        padding: 0 1rem ;
+        margin: 0;
+      }
+    }
+  }
+
+}

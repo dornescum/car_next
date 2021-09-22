@@ -14,6 +14,8 @@ import Detalii from "../components/Detalii/Detalii";
 import Imperfections from '../components/Imperfections/Imperfections';
 import Price from "../components/Price/Price";
 import UsedCar from "../components/UsedCar/UsedCar";
+import Diffrent from "../components/Diffrent/Diffrent";
+
 
 export default function Home() {
 	const navbarLinks = [
@@ -28,13 +30,7 @@ export default function Home() {
 
 	return (
 		<div className={styles.container}>
-			{/*<Head>*/}
-			{/*	<title>Best car ever</title>*/}
-			{/*	<meta name="viewport" content="width=device-width,initial-scale=1" />*/}
-			{/*	<meta name="description" content="best car ever"/>*/}
-			{/*	<meta name="description" content={`${date}`}/>*/}
-			{/*	<link rel="icon" href="/favicon.ico"/>*/}
-			{/*</Head>*/}
+
 			<Navbar  />
 			<Hero />
 			<Description />
@@ -44,7 +40,15 @@ export default function Home() {
 			{/*<Imperfections />*/}
 			<UsedCar />
 			<Price />
+			<Diffrent />
 			<Footer />
 		</div>
 	);
 }
+{/*<Head>*/}
+{/*	<title>Best car ever</title>*/}
+{/*	<meta name="viewport" content="width=device-width,initial-scale=1" />*/}
+{/*	<meta name="description" content="best car ever"/>*/}
+{/*	<meta name="description" content={`${date}`}/>*/}
+{/*	<link rel="icon" href="/favicon.ico"/>*/}
+{/*</Head>*/}

@@ -19,7 +19,7 @@ const Footer = () => {
 			<div className='container'>
 				<div className="row-footer mt-1">
 					<div className="col">
-						<button onClick={handleNumber} className='btn-info' >
+						<button onClick={handleNumber} className='btn-info'aria-label="phone button"  >
 							<FaPhoneAlt />
 						</button>
 						<div className='row'>
@@ -27,7 +27,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className="col">
-						<button  className='btn-info'>
+						<button  className='btn-info' aria-label="show email" >
 							<FaEnvelope  onClick={handleEmail}/>
 						</button>
 						<div className="row">
