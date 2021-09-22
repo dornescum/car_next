@@ -1073,6 +1073,14 @@ a {
   text-align: start;
   padding: 2rem;
 }
+.slider .head svg {
+  padding: 5px 0 0 0;
+  fill: white;
+  cursor: pointer;
+}
+.slider .head svg:hover {
+  fill: blue;
+}
 
 #second {
   padding: 3rem 0;

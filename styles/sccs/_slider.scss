@@ -7,14 +7,14 @@
     color: white;
     text-align: start;
     padding: 2rem;
-    //svg {
-    //  padding:0 1rem;
-    //  fill: red !important;
-    //  cursor: pointer;
-    //  &:hover {
-    //    fill: blue;
-    //  }
-    //}
+    svg {
+      padding:5px 0 0 0;
+      fill: white ;
+      cursor: pointer;
+      &:hover {
+        fill: blue;
+      }
+    }
   }
 }
 
