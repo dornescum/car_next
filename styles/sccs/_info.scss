@@ -5,6 +5,9 @@
   h3 {
     text-align: center;
   }
+  #infoMiddle {
+    padding: 5rem 0 0 0;
+  }
 }
 .info-form {
   //padding: $base-padding;
@@ -18,7 +21,7 @@
 }
 
 .border {
-  box-shadow: $box-shadow-light;
+  //box-shadow: $box-shadow-light;
   transition: all .3s ease;
   &:hover {
     box-shadow: $box-shadow-dark;

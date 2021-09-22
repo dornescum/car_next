@@ -929,6 +929,9 @@ a {
 .info-card h3 {
   text-align: center;
 }
+.info-card #infoMiddle {
+  padding: 5rem 0 0 0;
+}
 
 .info-form {
   margin: 1rem;
@@ -939,7 +942,6 @@ a {
 }
 
 .border {
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 .border:hover {
@@ -981,8 +983,14 @@ a {
   }
 }
 
+.gallery {
+  padding: 1rem 0 3rem 0;
+}
 .gallery h3 {
   text-align: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 .details {
@@ -1118,6 +1126,9 @@ a {
   text-align: center;
 }
 
+.used-car {
+  padding: 2rem 0;
+}
 .used-car h3 {
   text-align: center;
 }

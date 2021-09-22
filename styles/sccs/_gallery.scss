@@ -27,7 +27,11 @@
 
 }
 .gallery {
+  padding: 1rem 0 3rem 0;
   h3 {
     text-align: center;
+    padding: 1rem;
+    border: 1px solid $secondary;
+    border-radius: $border-radius;
   }
 }

@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image'
 // import car from '../../public/img/1-2.jpg'
 // import car from '../../public/webp/car.webp'
-import car from '/public/1.jpg'
+// import car from '/public/1.jpg'
 
 
 

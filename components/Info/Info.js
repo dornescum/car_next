@@ -5,7 +5,7 @@ const Info = () => {
 		<div className="info-card" id="echipare">
 			<h3>Informatii despre masina</h3>
 			<div className="container">
-				<div className="row gap-1">
+				<div className="row gap-3">
 					<div className="col-4-xl col-12-xs">
 						<div className="border br-xs">
 							<div className="row">
@@ -86,7 +86,7 @@ const Info = () => {
 						</div>
 					</div>
 
-					<div className="col-4-xl col-12-xs">
+					<div className="col-4-xl col-12-xs" id='infoMiddle'>
 						<div className="border br-xs">
 							<div className="row">
 								<div className="col-12-xs">

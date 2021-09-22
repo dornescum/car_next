@@ -1,10 +1,21 @@
 import React from 'react';
+// import { MdEventNote } from "react-icons/md";
+import Image from "next/image";
+import book from '../../public/svg/book.svg';
+import tail from '../../public/tail.svg';
+import Test from "../UI/test";
+
 
 const Detalii = () => {
 	return (
-		<div className='details'>
+		<div className="details">
 			<div className="container">
-				<h3>Cartea tehnica</h3>
+				<h3>Cartea tehnica
+					{/*<MdEventNote />*/}
+					{/*<Image src="/tail.svg" alt="book Logo" width={72} height={18} className='test'/>*/}
+					<Test height={13} width={30} fill="#326dee"/>
+				</h3>
+
 				<div className="row gap-1">
 					<div className="col-6-lg col-12-sm">
 						<div className="info-details">
@@ -72,8 +83,8 @@ const Detalii = () => {
 
 							<ul className="display-f justify-space-between  mb-1 mt-1 thin-br">
 								<li className="details-info">Maxima autorizata pe axe</li>
-								<li>Fata /875 </li>
-								<li>Spate /820 </li>
+								<li>Fata /875</li>
+								<li>Spate /820</li>
 							</ul>
 
 
@@ -95,7 +106,7 @@ const Detalii = () => {
 							</ul>
 
 							<ul className="display-f justify-space-between  mb-1 mt-1 thin-br">
-								<li className="details-info">Nr de locuri </li>
+								<li className="details-info">Nr de locuri</li>
 								<li>5</li>
 							</ul>
 
@@ -103,7 +114,7 @@ const Detalii = () => {
 								<li className="details-info">Dimensiunile de gabarit (mm)</li>
 								<li> L 4110</li>
 								<li> I 1709</li>
-								<li> h 1425 </li>
+								<li> h 1425</li>
 							</ul>
 
 						</div>
@@ -191,7 +202,7 @@ const Detalii = () => {
 							</ul>
 
 							<ul className="display-f justify-space-between  mb-1 mt-1 thin-br">
-								<li className="details-info">Viteza maxima (Km/h) </li>
+								<li className="details-info">Viteza maxima (Km/h)</li>
 								<li>188</li>
 							</ul>
 
