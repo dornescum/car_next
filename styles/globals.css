@@ -932,6 +932,11 @@ a {
 .info-card #infoMiddle {
   padding: 5rem 0 0 0;
 }
+@media (max-width: 1200px) {
+  .info-card #infoMiddle {
+    padding: 30px;
+  }
+}
 
 .info-form {
   margin: 1rem;
@@ -956,10 +961,17 @@ a {
 .description h3 {
   text-align: center;
 }
+@media (max-width: 480px) {
+  .description {
+    padding: 0.2rem;
+    margin: 0.2rem;
+  }
+}
 
 .photo {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  object-fit: cover;
 }
 .photo:hover {
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
@@ -1053,6 +1065,13 @@ a {
   padding: 0 1rem;
   margin: 0;
 }
+.diff .vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  padding: 2rem;
+  background: pink;
+  margin: 0 auto;
+}
 
 .hero {
   position: relative;
@@ -1123,6 +1142,7 @@ a {
   height: 17rem;
   width: 100%;
   padding: 0.3rem 0.5rem;
+  object-fit: cover;
 }
 @media (max-width: 1200px) {
   .photo-imp img {

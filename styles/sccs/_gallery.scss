@@ -2,6 +2,7 @@
   //padding: 0 $base-padding /2;
   box-shadow: $box-shadow-light;
   transition: all .3s ease;
+  object-fit: cover;
 
   &:hover {
     box-shadow: $box-shadow-dark;
