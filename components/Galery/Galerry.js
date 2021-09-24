@@ -15,7 +15,7 @@ const Galerry = () => {
 						<a href="/webp/1.webp" className="photo">
 							<img
 								src='/webp/1-sm.webp'
-								alt="Picture of the author"
+								alt="Opel"
 								srl_gallery_image="true"
 							/>
 
@@ -26,7 +26,7 @@ const Galerry = () => {
 						<a href="/webp/2.webp" className="photo">
 							<img
 								src='/webp/2-sm.webp'
-								alt="Picture of the author"
+								alt="130 000"
 								srl_gallery_image="true"
 							/>
 						</a>
@@ -35,7 +35,7 @@ const Galerry = () => {
 						<a href="/webp/3.webp" className="photo">
 							<img
 								src='/webp/3-sm.webp'
-								alt="Picture of the author"
+								alt="aer conditionat"
 								srl_gallery_image="true"
 							/>
 						</a>
@@ -44,7 +44,7 @@ const Galerry = () => {
 						<a href="/webp/4.webp" className="photo">
 							<img
 								src='/webp/4-sm.webp'
-								alt="Picture of the author"
+								alt="Radio. Cd"
 								srl_gallery_image="true"
 							/>
 						</a>
@@ -53,7 +53,7 @@ const Galerry = () => {
 						<a href="/webp/5.webp" className="photo">
 							<img
 								src='/webp/5-sm.webp'
-								alt="Picture of the author"
+								alt="Tapiteria a fost protejata cu huse"
 								srl_gallery_image="true"
 							/>
 						</a>
@@ -62,7 +62,7 @@ const Galerry = () => {
 						<a href="/webp/6.webp" className="photo">
 							<img
 								src='/webp/6-sm.webp'
-								alt="Picture of the author"
+								alt="Tapiteria a fost protejata cu huse"
 								srl_gallery_image="true"
 							/>
 						</a>
@@ -71,7 +71,7 @@ const Galerry = () => {
 						<a href="/webp/7.webp" className="photo">
 							<img
 								src='/webp/7-sm.webp'
-								alt="Picture of the author"
+								alt="Inchidere centralizata"
 								srl_gallery_image="true"
 							/>
 						</a>
@@ -80,7 +80,7 @@ const Galerry = () => {
 						<a href="/webp/8.webp" className="photo">
 							<img
 								src='/webp/8-sm.webp'
-								alt="Picture of the author"
+								alt="Portbagaj"
 								srl_gallery_image="true"
 							/>
 						</a>
@@ -89,7 +89,7 @@ const Galerry = () => {
 						<a href="/webp/9.webp" className="photo">
 							<img
 								src='/webp/9-sm.webp'
-								alt="Picture of the author"
+								alt="Roata de rezerva"
 								srl_gallery_image="true"
 							/>
 						</a>
