@@ -4,6 +4,7 @@ import Test from "../UI/test";
 
 
 const Detalii = () => {
+
 	return (
 		<div className="details">
 			<div className="container">
