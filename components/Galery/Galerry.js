@@ -9,7 +9,7 @@ const Galerry = () => {
 		<div className="container gallery" id='galerie'>
 			<h3>Galerie foto</h3>
 			<SRLWrapper>
-				<div className="row gap-1">
+				<div className="row">
 
 					<div className="col-3-lg col-6-sm col-12-xs">
 						<a href="/webp/1.webp" className="photo">

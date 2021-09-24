@@ -37,10 +37,18 @@ export default function Home() {
 			<Info />
 			<Galerry />
 			<Detalii />
+
+
 			{/*<Imperfections />*/}
 			{/*<UsedCar />*/}
+
+
 			<Price />
+
+
 			{/*<Diffrent />*/}
+
+
 			<Footer />
 		</div>
 	);

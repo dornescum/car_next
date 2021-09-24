@@ -5,7 +5,7 @@ const Info = () => {
 		<div className="info-card" id="echipare">
 			<h3>Informatii despre masina</h3>
 			<div className="container">
-				<div className="row gap-3">
+				<div className="row">
 					<div className="col-4-xl col-12-xs">
 						<div className="border br-xs">
 							<div className="row">

@@ -8,6 +8,11 @@ body {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+  height: 100.1%;
 }
 
 a {
@@ -937,6 +942,11 @@ a {
     padding: 30px;
   }
 }
+@media (max-width: 1200px) {
+  .info-card #infoMiddle {
+    padding: 0;
+  }
+}
 
 .info-form {
   margin: 1rem;
@@ -979,6 +989,7 @@ a {
 .photo img {
   height: 18rem;
   width: 100%;
+  padding: 0.3rem 0.5rem;
 }
 @media (max-width: 1200px) {
   .photo img {
@@ -992,7 +1003,7 @@ a {
 }
 @media (max-width: 480px) {
   .photo img {
-    height: 17rem;
+    height: 18rem;
   }
 }
 

@@ -10,6 +10,11 @@ body {
 }
 html {
   scroll-behavior: smooth;
+  //overflow: scroll; // elimina problema?
+  overflow-x: hidden;
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+  height:100.1%;
 }
 
 a {
