@@ -1,8 +1,5 @@
 import React from 'react';
-// import { MdEventNote } from "react-icons/md";
-import Image from "next/image";
-import book from '../../public/svg/book.svg';
-import tail from '../../public/tail.svg';
+
 import Test from "../UI/test";
 
 
@@ -11,8 +8,6 @@ const Detalii = () => {
 		<div className="details">
 			<div className="container">
 				<h3>Cartea tehnica
-					{/*<MdEventNote />*/}
-					{/*<Image src="/tail.svg" alt="book Logo" width={72} height={18} className='test'/>*/}
 					<Test height={13} width={30} fill="#326dee"/>
 				</h3>
 

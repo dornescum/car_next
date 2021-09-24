@@ -40,7 +40,7 @@ export default function Home() {
 			{/*<Imperfections />*/}
 			<UsedCar />
 			<Price />
-			<Diffrent />
+			{/*<Diffrent />*/}
 			<Footer />
 		</div>
 	);

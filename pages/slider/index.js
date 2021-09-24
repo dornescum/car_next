@@ -1,6 +1,5 @@
 import React from 'react';
 import {SRLWrapper} from "simple-react-lightbox";
-import Image from 'next/image';
 import Link from 'next/link';
 import {BsChevronLeft} from "react-icons/bs";
 
