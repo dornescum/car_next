@@ -38,7 +38,7 @@ export default function Home() {
 			<Galerry />
 			<Detalii />
 			{/*<Imperfections />*/}
-			<UsedCar />
+			{/*<UsedCar />*/}
 			<Price />
 			{/*<Diffrent />*/}
 			<Footer />
