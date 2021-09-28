@@ -19,37 +19,37 @@ import Diffrent from "../components/Diffrent/Diffrent";
 
 export default function Home() {
 	const navbarLinks = [
-		{ url: "#fata", title: "Home" },
-		{ url: "#desc", title: "Descriere" },
-		{ url: "#echipare", title: "Echipare" },
-		{ url: "#galerie", title: "Galerie" },
-		{ url: "/slider", title: "Imperfectiuni" },
-		{ url: "#contact", title: "Contact" },
+		{url: "#fata", title: "Home"},
+		{url: "#desc", title: "Descriere"},
+		{url: "#echipare", title: "Echipare"},
+		{url: "#galerie", title: "Galerie"},
+		{url: "/slider", title: "Imperfectiuni"},
+		{url: "#contact", title: "Contact"},
 	];
 	// const date = new Date()
 
 	return (
 		<div className={styles.container}>
 
-			<Navbar  />
-			<Hero />
-			<Description />
-			<Info />
-			<Galerry />
-			<Detalii />
+			<Navbar/>
+			<Hero/>
+			<Description/>
+			<Info/>
+			<Galerry/>
+			<Detalii/>
 
 
-			{/*<Imperfections />*/}
+			{/*<Imperfections/>*/}
 			{/*<UsedCar />*/}
 
 
-			<Price />
+			<Price/>
 
 
-			{/*<Diffrent />*/}
+			{/*<Diffrent/>*/}
 
 
-			<Footer />
+			<Footer/>
 		</div>
 	);
 }

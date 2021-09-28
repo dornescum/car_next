@@ -987,26 +987,9 @@ a {
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .photo img {
-  height: 18rem;
   width: 100%;
   padding: 0.3rem 0.5rem;
 }
-@media (max-width: 1200px) {
-  .photo img {
-    height: 14rem;
-  }
-}
-@media (max-width: 960px) {
-  .photo img {
-    height: 20rem;
-  }
-}
-@media (max-width: 480px) {
-  .photo img {
-    height: 18rem;
-  }
-}
-
 .gallery {
   padding: 1rem 0 3rem 0;
 }
@@ -1150,27 +1133,10 @@ a {
 }
 
 .photo-imp img {
-  height: 17rem;
   width: 100%;
   padding: 0.3rem 0.5rem;
   object-fit: cover;
 }
-@media (max-width: 1200px) {
-  .photo-imp img {
-    height: 15rem;
-  }
-}
-@media (max-width: 960px) {
-  .photo-imp img {
-    height: 20rem;
-  }
-}
-@media (max-width: 480px) {
-  .photo-imp img {
-    height: 18rem;
-  }
-}
-
 .price {
   background: #ededed;
   padding: 1rem;
